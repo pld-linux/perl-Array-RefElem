@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Array
 %define	pnam	RefElem
-Summary:	Array::RefElem - Set up array elements as aliases
+Summary:	Array::RefElem - set up array elements as aliases
+Summary(pl):	Array::RefElem - ustawianie elementów tablicy jako aliasów
 Name:		perl-Array-RefElem
 Version:	1.00
 Release:	1
@@ -21,6 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module gives direct access to some of the internal Perl routines
 that let you store things in arrays and hashes.
+
+%description -l pl
+Ten modu³ daje bezpo¶redni dostêp do niektórych wewnêtrznych funkcji
+Perla pozwalaj±cych zapisywaæ ró¿ne rzeczy w tablicach i haszach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
