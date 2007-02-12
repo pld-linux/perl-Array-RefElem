@@ -6,7 +6,7 @@
 %define	pdir	Array
 %define	pnam	RefElem
 Summary:	Array::RefElem - set up array elements as aliases
-Summary(pl):	Array::RefElem - ustawianie elementów tablicy jako aliasów
+Summary(pl.UTF-8):   Array::RefElem - ustawianie elementÃ³w tablicy jako aliasÃ³w
 Name:		perl-Array-RefElem
 Version:	1.00
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module gives direct access to some of the internal Perl routines
 that let you store things in arrays and hashes.
 
-%description -l pl
-Ten modu³ daje bezpo¶redni dostêp do niektórych wewnêtrznych funkcji
-Perla pozwalaj±cych zapisywaæ ró¿ne rzeczy w tablicach i haszach.
+%description -l pl.UTF-8
+Ten moduÅ‚ daje bezpoÅ›redni dostÄ™p do niektÃ³rych wewnÄ™trznych funkcji
+Perla pozwalajÄ…cych zapisywaÄ‡ rÃ³Å¼ne rzeczy w tablicach i haszach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
