@@ -6,7 +6,7 @@
 %define	pdir	Array
 %define	pnam	RefElem
 Summary:	Array::RefElem - set up array elements as aliases
-Summary(pl.UTF-8):   Array::RefElem - ustawianie elementów tablicy jako aliasów
+Summary(pl.UTF-8):	Array::RefElem - ustawianie elementów tablicy jako aliasów
 Name:		perl-Array-RefElem
 Version:	1.00
 Release:	1
