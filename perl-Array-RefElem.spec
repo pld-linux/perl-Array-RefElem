@@ -34,6 +34,7 @@ Perla pozwalających zapisywać różne rzeczy w tablicach i haszach.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
