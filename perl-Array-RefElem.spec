@@ -55,6 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Array/*.pm
 %dir %{perl_vendorarch}/auto/Array
 %dir %{perl_vendorarch}/auto/Array/RefElem
-%{perl_vendorarch}/auto/Array/RefElem/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Array/RefElem/*.so
 %{_mandir}/man3/*
