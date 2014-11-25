@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Array
 %define	pnam	RefElem
+%include	/usr/lib/rpm/macros.perl
 Summary:	Array::RefElem - set up array elements as aliases
 Summary(pl.UTF-8):	Array::RefElem - ustawianie elementów tablicy jako aliasów
 Name:		perl-Array-RefElem
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/G/GA/GAAS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	43ff2dd2049258634cb00697198572d1
+URL:		http://search.cpan.org/dist/Array-RefElem/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
