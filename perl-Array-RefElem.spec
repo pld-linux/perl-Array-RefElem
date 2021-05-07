@@ -8,7 +8,7 @@ Summary:	Array::RefElem - set up array elements as aliases
 Summary(pl.UTF-8):	Array::RefElem - ustawianie elementów tablicy jako aliasów
 Name:		perl-Array-RefElem
 Version:	1.00
-Release:	18
+Release:	19
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
